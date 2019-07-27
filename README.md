@@ -1,3 +1,1 @@
-
-
 # miner-gpu
