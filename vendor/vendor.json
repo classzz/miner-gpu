@@ -1,0 +1,112 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "V1Y98nZs4gGXStC9mJgovKkUS10=",
+			"path": "github.com/Gustav-Simonsson/go-opencl/cl",
+			"revision": "593e01cfc4f3353585015321e01951d4a907d3ef",
+			"revisionTime": "2015-06-30T11:05:53Z"
+		},
+		{
+			"checksumSHA1": "Z29531lc7XwTYlKyDbHw0+YsXwY=",
+			"origin": "github.com/classzz/classzz/vendor/github.com/btcsuite/go-socks/socks",
+			"path": "github.com/btcsuite/go-socks/socks",
+			"revision": "d9a47dbb29e914bb14c486a1dd70d137a5c1859e",
+			"revisionTime": "2019-07-29T10:38:30Z"
+		},
+		{
+			"checksumSHA1": "Jqp5ZO3fJieAhsvTi+ub0+7CO/M=",
+			"origin": "github.com/classzz/classzz/vendor/github.com/btcsuite/websocket",
+			"path": "github.com/btcsuite/websocket",
+			"revision": "d9a47dbb29e914bb14c486a1dd70d137a5c1859e",
+			"revisionTime": "2019-07-29T10:38:30Z"
+		},
+		{
+			"checksumSHA1": "sBdduMSwmDd//5w6worhhH/f/rw=",
+			"path": "github.com/classzz/classzz/btcjson",
+			"revision": "d9a47dbb29e914bb14c486a1dd70d137a5c1859e",
+			"revisionTime": "2019-07-29T10:38:30Z"
+		},
+		{
+			"checksumSHA1": "aMNXeQeGM6O6zYL4TSm8RdkDQGQ=",
+			"path": "github.com/classzz/classzz/chaincfg",
+			"revision": "d9a47dbb29e914bb14c486a1dd70d137a5c1859e",
+			"revisionTime": "2019-07-29T10:38:30Z"
+		},
+		{
+			"checksumSHA1": "1ivWGtCfIQSI/9cBJjJ8IZ4F4yE=",
+			"path": "github.com/classzz/classzz/chaincfg/chainhash",
+			"revision": "d9a47dbb29e914bb14c486a1dd70d137a5c1859e",
+			"revisionTime": "2019-07-29T10:38:30Z"
+		},
+		{
+			"checksumSHA1": "J1YXr0PnLkNPGq7EtW2GEiaKWuM=",
+			"path": "github.com/classzz/classzz/czzec",
+			"revision": "d9a47dbb29e914bb14c486a1dd70d137a5c1859e",
+			"revisionTime": "2019-07-29T10:38:30Z"
+		},
+		{
+			"checksumSHA1": "x8royU+ZhrTBGuGtcGfd2MJusmw=",
+			"path": "github.com/classzz/classzz/rpcclient",
+			"revision": "d9a47dbb29e914bb14c486a1dd70d137a5c1859e",
+			"revisionTime": "2019-07-29T10:38:30Z"
+		},
+		{
+			"checksumSHA1": "zo+pl9CpfnmQOCSzNe7ZBpBL/gA=",
+			"path": "github.com/classzz/classzz/wire",
+			"revision": "d9a47dbb29e914bb14c486a1dd70d137a5c1859e",
+			"revisionTime": "2019-07-29T10:38:30Z"
+		},
+		{
+			"checksumSHA1": "zUVI0ZaAmcaPXWOQfUeQnbNEQTM=",
+			"origin": "github.com/classzz/classzz/vendor/github.com/classzz/czzlog",
+			"path": "github.com/classzz/czzlog",
+			"revision": "d9a47dbb29e914bb14c486a1dd70d137a5c1859e",
+			"revisionTime": "2019-07-29T10:38:30Z"
+		},
+		{
+			"checksumSHA1": "f9fw9WGXUwYk3qmQafTF5Nz5PFM=",
+			"origin": "github.com/classzz/classzz/vendor/github.com/classzz/czzutil",
+			"path": "github.com/classzz/czzutil",
+			"revision": "d9a47dbb29e914bb14c486a1dd70d137a5c1859e",
+			"revisionTime": "2019-07-29T10:38:30Z"
+		},
+		{
+			"checksumSHA1": "DiZ57oa4EeY4Tm70rPA0/qW9fDE=",
+			"origin": "github.com/classzz/classzz/vendor/github.com/classzz/czzutil/base58",
+			"path": "github.com/classzz/czzutil/base58",
+			"revision": "d9a47dbb29e914bb14c486a1dd70d137a5c1859e",
+			"revisionTime": "2019-07-29T10:38:30Z"
+		},
+		{
+			"checksumSHA1": "zc5FHSFPWSXbmBaUPd+h6KlfnoE=",
+			"origin": "github.com/classzz/classzz/vendor/github.com/dchest/siphash",
+			"path": "github.com/dchest/siphash",
+			"revision": "d9a47dbb29e914bb14c486a1dd70d137a5c1859e",
+			"revisionTime": "2019-07-29T10:38:30Z"
+		},
+		{
+			"checksumSHA1": "rSfZE147P0Nrjnj+9YRllZj8b38=",
+			"origin": "github.com/classzz/classzz/vendor/golang.org/x/crypto/ripemd160",
+			"path": "golang.org/x/crypto/ripemd160",
+			"revision": "d9a47dbb29e914bb14c486a1dd70d137a5c1859e",
+			"revisionTime": "2019-07-29T10:38:30Z"
+		},
+		{
+			"checksumSHA1": "LUGLCLL5OdaU3WHiSPTsQ4NwgDg=",
+			"origin": "github.com/classzz/classzz/vendor/golang.org/x/crypto/sha3",
+			"path": "golang.org/x/crypto/sha3",
+			"revision": "d9a47dbb29e914bb14c486a1dd70d137a5c1859e",
+			"revisionTime": "2019-07-29T10:38:30Z"
+		},
+		{
+			"checksumSHA1": "99tELv4HOuhpAZXBXpDFv3lbsxI=",
+			"origin": "github.com/classzz/classzz/vendor/golang.org/x/sys/cpu",
+			"path": "golang.org/x/sys/cpu",
+			"revision": "d9a47dbb29e914bb14c486a1dd70d137a5c1859e",
+			"revisionTime": "2019-07-29T10:38:30Z"
+		}
+	],
+	"rootPath": "github.com/classzz/miner-gpu"
+}
