@@ -911,7 +911,7 @@ int czz_scramble(
 	};
 	cw[0] = k;
 	// for every row
-	for (int k = 0; k < 8; k++)
+	for (int k = 0; k < 2048; k++)
 	{
 		int r;
 
@@ -994,19 +994,16 @@ __kernel void czzhash_search(
 	__global uchar const* g_dag,
 	ulong start_nonce,
 	ulong target,
-	uint isolate,
-	__global volatile ulong* restrict nonce
+	uint isolate
 	)
 {
 	//__local compute_hash_share share[HASHES_PER_LOOP];
 	uint const gid = get_global_id(0);
 	compute_hash_chunks(g_output, g_header, g_dag, start_nonce + 0, 1);
-	nonce = start_nonce;
 	//if (as_ulong(as_uchar8(g_output[0]).s76543210) < target)
 	//{
 		//uint slot = min(convert_uint(MAX_OUTPUTS), convert_uint(atomic_inc(&g_output[0]) + 1));
 		//g_output[slot] = gid;
 	//}
 }
-
 `
