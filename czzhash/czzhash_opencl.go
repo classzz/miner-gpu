@@ -301,7 +301,7 @@ func (c *OpenCLMiner) Search(hash [32]byte, target uint64, stop <-chan struct{},
 				log.Fatal("Error in Search clEnqueueMapBuffer ", "err", err)
 				return nil
 			}
-
+			//log.Println("index",index,"result ",result)
 			if new(big.Int).SetBytes(result[:]).Cmp(big.NewInt(0).SetUint64(target)) <= 0 {
 				su := &Result{
 					HashRate: Nonce - InitNonce,
@@ -316,4 +316,24 @@ func (c *OpenCLMiner) Search(hash [32]byte, target uint64, stop <-chan struct{},
 
 func (c *OpenCLMiner) GetDeviceCount() int {
 	return len(c.devices)
+}
+
+func GetDeviceCount() int {
+
+	platforms, err := cl.GetPlatforms()
+	if err != nil {
+		return 0
+	}
+	count := 0
+	for _, p := range platforms {
+		ds, err := cl.GetDevices(p, cl.DeviceTypeGPU)
+		if err != nil {
+			return 0
+		}
+		for _, d := range ds {
+			d.Name()
+			count++
+		}
+	}
+	return count
 }

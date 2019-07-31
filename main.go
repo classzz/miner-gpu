@@ -107,7 +107,12 @@ func main() {
 	}
 	defer client.Shutdown()
 
-	Cl := czzhash.NewCL([]int{0, 1})
+	driverCount := czzhash.GetDeviceCount()
+	cls := []int{}
+	for i := 0; i < driverCount; i++ {
+		cls = append(cls, i)
+	}
+	Cl := czzhash.NewCL(cls)
 	err = czzhash.InitCL(0, Cl)
 
 	min := &Miner{
