@@ -3,8 +3,8 @@ package cl
 // #ifdef __APPLE__
 // #include "OpenCL/opencl.h"
 // #else
-// #include "cl.h"
-// #include "cl_ext.h"
+// #include "headers/1.2/cl.h"
+// #include "headers/1.2/cl_ext.h"
 // #endif
 import "C"
 

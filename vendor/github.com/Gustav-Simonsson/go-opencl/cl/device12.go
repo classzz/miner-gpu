@@ -5,7 +5,7 @@ package cl
 // #ifdef __APPLE__
 // #include "OpenCL/opencl.h"
 // #else
-// #include "cl.h"
+// #include "headers/1.2/cl.h"
 // #endif
 import "C"
 import "unsafe"

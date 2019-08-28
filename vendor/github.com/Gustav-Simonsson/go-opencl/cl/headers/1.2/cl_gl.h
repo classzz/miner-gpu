@@ -24,7 +24,7 @@
 #ifndef __OPENCL_CL_GL_H
 #define __OPENCL_CL_GL_H
 
-#include <cl.h>
+#include <headers/1.2/cl.h>
 
 #ifdef __cplusplus
 extern "C" {
