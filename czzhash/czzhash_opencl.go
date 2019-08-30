@@ -85,6 +85,7 @@ func InitCL(blockNum uint64, c *OpenCLMiner) error {
 	c.czzhash = pow
 
 	for _, id := range c.deviceIds {
+		fmt.Printf("Device (%s): %s", devices[id].Type(), devices[id].Name())
 		if id > len(devices)-1 {
 			return fmt.Errorf("Device id not found. See available device ids with: geth gpuinfo")
 		} else {
